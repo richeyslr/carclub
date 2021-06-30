@@ -1,3 +1,12 @@
 body{max-width:1000px;padding:1em;font-family:Helvetica,Arial,sans-serif;}
+
 div,section,header{border:1px solid lightgray;padding:.5em;margin-bottom:1em;}
+
+li{
+    display: inline;
+}
+
+ul {
+    list-style-type: none;margin: none;padding: 0;
+}
 0
