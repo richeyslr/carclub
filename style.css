@@ -1,4 +1,4 @@
-body{max-width:1000px;padding:1em;font-family:Helvetica,Arial,sans-serif;}
+body{max-width:1000px;padding:1em;font-family:Helvetica,Arial,sans-serif;background-color: rgb(252,220,153);}
 
 div,section,header{border:1px solid lightgray;padding:.5em;margin-bottom:1em;}
 
@@ -9,4 +9,3 @@ li{
 ul {
     list-style-type: none;margin: none;padding: 0;
 }
-0
