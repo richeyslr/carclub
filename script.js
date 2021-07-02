@@ -1,4 +1,4 @@
-function backgroundChanger(){
+ function backgroundChanger(){
     alert("You can now change the background color to gold, purple, red, or blue.");
     var backgroundChoice = prompt("What color do you want your background?" );
     if (backgroundChoice == 'gold'){
@@ -23,7 +23,18 @@ function backgroundChanger(){
     }
 }
 
-backgroundChanger();
 while(backgroundChanger() == false){
-backgroundChanger();
-}
+} 
+ 
+
+function starGenerator(){
+   var rating = prompt('Leave a rating 1-5 to see a talking car!');
+    for (let i = 0; i < rating; i++){
+        var starCount = document.createElement('img');
+        starCount.setAttribute("src", "images/mcqueen.jpeg");
+        starCount.setAttribute("height", "200");
+        starCount.setAttribute("width", "200");
+        starCount.setAttribute("alt", "stars");
+        document.body.appendChild(starCount);    
+    }
+} 

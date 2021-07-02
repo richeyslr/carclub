@@ -1,11 +1,34 @@
-body{max-width:1000px;padding:1em;font-family:Helvetica,Arial,sans-serif;background-color: rgb(252,220,153);}
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(252, 220, 153);
+}
 
-div,section,header{border:1px solid lightgray;padding:.5em;margin-bottom:1em;}
+div,
+section,
+header {
+  border: 1px solid lightgray;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
 
-li{
-    display: inline;
+li {
+  display: inline;
 }
 
 ul {
-    list-style-type: none;margin: none;padding: 0;
+  list-style-type: none;
+  margin: none;
+  padding: 0;
+}
+.leaveRating {
+  background-color: #db0303;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
