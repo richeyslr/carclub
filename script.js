@@ -31,10 +31,10 @@ function starGenerator(){
    var rating = prompt('Leave a rating 1-5 to see a talking car!');
     for (let i = 0; i < rating; i++){
         var starCount = document.createElement('img');
-        starCount.setAttribute("src", "images/mcqueen.jpeg");
+        starCount.setAttribute("src", "https://i.imgur.com/iVnN2dF.jpg");
         starCount.setAttribute("height", "200");
         starCount.setAttribute("width", "200");
-        starCount.setAttribute("alt", "stars");
+        starCount.setAttribute("alt", "lightning mcqueen");
         document.body.appendChild(starCount);    
     }
 } 
